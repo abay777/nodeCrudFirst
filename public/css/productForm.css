@@ -1,0 +1,28 @@
+
+form{
+    display: flex;
+    border: black 2px solid;
+    flex-wrap: wrap;
+    padding: 5rem 3rem;
+}
+
+form button{
+    background-color: beige;
+    color: black;
+    padding: 2rem 7rem;
+    justify-self: center;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+form input{
+    padding: 1rem 5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+
+form label {
+    font-weight: 500;
+
+}

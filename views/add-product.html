@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/productForm.css">
+</head>
+<body>
+
+    <h1>welcome to add product page</h1>
+
+    <form action="/api/add-product" method="POST"  enctype="multipart/form-data">
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="quantity" >quantity</label>
+        <input type="number" id="quantity"name="quantity" required>
+        <label for="price">Price</label>
+        <input type="number" name="price" id="price" required>
+        <label for="image">image</label>
+        <input type="file" name="image" id="image">
+        <button type="submit">submit</button>
+    </form>
+    
+</body>
+</html>
